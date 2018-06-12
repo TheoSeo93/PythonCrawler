@@ -174,7 +174,7 @@ def file_exists(fileId):
 
 
 # Setup the Drive v3 API
-FILEID = '1Jlfty2fK14Dz-nlk_qBszawzHYHW6ofM'
+FILEID = 'FILE_ID'
 SCOPES = 'https://www.googleapis.com/auth/drive'
 store = file.Storage('credentials.json')
 creds = store.get()
