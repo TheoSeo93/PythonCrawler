@@ -17,7 +17,7 @@ wr = csv.writer(f, delimiter='\t')
 print("Extracting Driver..")
 
 config = {
-    "apiKey": "AIzaSyBH0XiUxAVq8YQOKwyGNjqjlHbDuDw2dxA",  # webkey
+    "apiKey": "APIKEY",  # webkey
     "authDomain": "crawling-569b7.firebaseapp.com",
     "databaseURL": "https://crawling-569b7.firebaseio.com",  # database url
     "storageBucket": "crawling-569b7.appspot.com",  # storage
