@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b609f1b-a5ee-43ca-8d07-14e6e6cdeae3" name="first commit" comment="first commit">
       <change afterPath="$USER_HOME$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataCrawl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScrapeMenu_googleDrive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/README.md" beforeDir="false" afterPath="$USER_HOME$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScrapeMenu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScrapeMenu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapeMenu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -112,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -844,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapeMenu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -858,6 +844,13 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
