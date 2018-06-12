@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1b609f1b-a5ee-43ca-8d07-14e6e6cdeae3" name="first commit" comment="first commit">
       <change afterPath="$USER_HOME$/.gitmodules" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/LICENSE" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/README.md" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/index.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/lib/read.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/lib/types/json.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/lib/types/text.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/node_modules/body-parser/package.json" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/package-lock.json" afterDir="false" />
-      <change afterPath="$USER_HOME$/sbu-chatbot/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataCrawl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScrapeMenu_googleDrive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ghostdriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/README.md" beforeDir="false" afterPath="$USER_HOME$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +32,8 @@
       <file leaf-file-name="ScrapeMenu.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ScrapeMenu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            <state relative-caret-position="209">
+              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -175,8 +170,8 @@
         <option value="$PROJECT_DIR$/Prototype.py" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/ScrapeMenu_googleDrive.py" />
-        <option value="$PROJECT_DIR$/ScrapeMenu.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ScrapeMenu.py" />
       </list>
     </option>
   </component>
@@ -199,11 +194,6 @@
             <path>
               <item name="dataCrawl" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataCrawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataCrawl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataCrawl" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -863,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScrapeMenu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        <state relative-caret-position="209">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
