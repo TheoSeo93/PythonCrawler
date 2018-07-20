@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import Select
-
+# Firebase Version
 DINING_URL = 'https://cafes.compass-usa.com/StonyBrook/_layouts/15/appredirect.aspx?redirect_uri=https%3A%2F%2Fphapps%2Ecompassappstore%2Ecom%2FWebtritionMenuWeb%2FHome%3FSPHostUrl%3Dhttps%253A%252F%252Fcafes%252Ecompass%252Dusa%252Ecom%252FStonyBrook%26SPHostTitle%3DStonyBrook%26SPAppWebUrl%3D%22%22%26SPLanguage%3Den%252DUS%26SPClientTag%3D3%26SPProductNumber%3D15%252E0%252E4569%252E1000%26lid%3DlidTmp%26SenderId%3DA83BDF150&client_id=i%3A0i%2Et%7Cms%2Esp%2Eext%7C91c95c41%2D3ecb%2D47ca%2Dbaf7%2D377e96b97518%402b6b3e6d%2D0394%2D45b8%2Db909%2D8aa0ca7d9340&anon=1'
 currentDate = datetime.datetime.today()
 f = open('test.txt', 'w', encoding='utf-8', newline='')
