@@ -14,7 +14,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 sched = BlockingScheduler()
+
 # Automated Scheduling Version
+# Updates the menu to the Firebase Storage every two days 
 
 @sched.scheduled_job('interval', minutes=2880)
 def job():
