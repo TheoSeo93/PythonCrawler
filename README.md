@@ -5,4 +5,4 @@ Initially, I tried to make a web crawler & scraper that uploads the data to the 
 
 Then, I became lazy to update the menu by running the python script on my laptop.
 
-So I deployed the python script to Heroku, ran by python apscheduler. This file name is automated.py
+So I deployed the python script to Heroku, ran by python apscheduler. I manipulated the web driver options to look this headless browser like a human browsing website. This file name is automated.py
