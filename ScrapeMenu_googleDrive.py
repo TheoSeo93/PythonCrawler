@@ -12,7 +12,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 from selenium.webdriver.support.ui import WebDriverWait
-
+# Google Drive version
 OAUTH_SCOPE = [
     'https://www.googleapis.com/auth/drive.file',
     'https://www.googleapis.com/auth/drive',
