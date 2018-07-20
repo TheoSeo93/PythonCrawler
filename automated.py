@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 sched = BlockingScheduler()
-
+# Automated Scheduling Version
 
 @sched.scheduled_job('interval', minutes=2880)
 def job():
