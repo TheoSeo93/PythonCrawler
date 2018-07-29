@@ -15,10 +15,8 @@ from selenium.webdriver.common.by import By
 
 sched = BlockingScheduler()
 
-# Automated Scheduling Version
-# Updates the menu to the Firebase Storage every two days.
 
-@sched.scheduled_job('interval', minutes=2880)
+@sched.scheduled_job('interval', minutes=20)
 def job():
     DINING_URL = 'https://cafes.compass-usa.com/StonyBrook/_layouts/15/appredirect.aspx?redirect_uri=https%3A%2F%2Fphapps%2Ecompassappstore%2Ecom%2FWebtritionMenuWeb%2FHome%3FSPHostUrl%3Dhttps%253A%252F%252Fcafes%252Ecompass%252Dusa%252Ecom%252FStonyBrook%26SPHostTitle%3DStonyBrook%26SPAppWebUrl%3D%22%22%26SPLanguage%3Den%252DUS%26SPClientTag%3D3%26SPProductNumber%3D15%252E0%252E4569%252E1000%26lid%3DlidTmp%26SenderId%3DA83BDF150&client_id=i%3A0i%2Et%7Cms%2Esp%2Eext%7C91c95c41%2D3ecb%2D47ca%2Dbaf7%2D377e96b97518%402b6b3e6d%2D0394%2D45b8%2Db909%2D8aa0ca7d9340&anon=1'
     currentDate = datetime.datetime.today()
@@ -27,7 +25,7 @@ def job():
     print("Extracting Driver..")
 
     config = {
-        "apiKey": "APIKEY",  # webkey
+        "apiKey": "KEY",  # webkey
         "authDomain": "crawling-569b7.firebaseapp.com",
         "databaseURL": "https://crawling-569b7.firebaseio.com",  # database url
         "storageBucket": "crawling-569b7.appspot.com",  # storage
@@ -39,18 +37,20 @@ def job():
     options.binary_location = chrome_bin
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument('headless')
     options.add_argument('window-size=1200x600')
+    #   Option manipulation to look just as a human.
     options.add_argument(
         "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36")
     options.add_argument("lang=ko_KR")
 
     driver = webdriver.Chrome(executable_path="chromedriver", chrome_options=options)
+    
     driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: function() {return[1, 2, 3, 4, 5]}})")
     driver.execute_script(
         "const getParameter = WebGLRenderingContext.getParameter;WebGLRenderingContext.prototype.getParameter = function(parameter) {if (parameter === 37445) {return 'NVIDIA Corporation'} if (parameter === 37446) {return 'NVIDIA GeForce GTX 980 Ti OpenGL Engine';}return getParameter(parameter);};")
 
-    driver.execute_script("Object.defineProperty(navigator, 'languages', {get: function() {return ['ko-KR', 'ko']}})")
 
     driver.get(DINING_URL)
 
@@ -58,7 +58,7 @@ def job():
         for n in range(int((end_date - start_date).days)):
             yield start_date + timedelta(n)
 
-    for date in daterange(currentDate, currentDate + datetime.timedelta(days=20)):
+    for date in daterange(currentDate, currentDate + datetime.timedelta(days=2)):
         dateString = date.strftime("%m/%d/%Y")
         print("Starting from " + dateString)
         e = WebDriverWait(driver, 100).until(
