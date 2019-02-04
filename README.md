@@ -30,6 +30,7 @@ After finding out the "real" address to crawl, I began to write a python script 
 
 ## Step 3
 So this is it!
+
 ![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/giphy.gif)
 
       
