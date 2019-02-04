@@ -30,6 +30,6 @@ After finding out the "real" address to crawl, I began to write a python script 
 
 ## Step 3
 
-![alt txt](https://giphy.com/gifs/9r51hE2e80ZdR5Jo3i)
+![alt txt](https://media.giphy.com/media/9r51hE2e80ZdR5Jo3i/giphy.gif)
 
       
