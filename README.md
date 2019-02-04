@@ -35,4 +35,7 @@ This should have been done by storing the data as a json file format because JSO
 
 ![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/giphy.gif)
 
+
+## This is how the data was displayed in the mobile app (Too bad that I had to unpublish this app!)
+
       
