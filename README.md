@@ -16,5 +16,8 @@ https://cafes.compass-usa.com/StonyBrook/SitePages/Menu.aspx?lid=a1
 However, it was not possible because the actual menu data was hidden from iframe html element.
 So I had to find the real address from which the website was getting data.
 As you can see from this image, the iframe was directing the real web address.
+
+
+
 ![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/crawl_2.PNG)
       
