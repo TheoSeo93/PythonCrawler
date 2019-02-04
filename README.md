@@ -23,7 +23,7 @@ As you can see from this image, the iframe was directing the real web address.
 
 
 ## Step 2
-After finding out the "real" address to crawl, I began to write a python script that crawls all the data looping through to select each date, places, and time slots during the day.
+After finding out the "real" address to crawl, I began to write a python script that crawls to scrape all the data looping through to select each date, places, and time slots during the day.
 
 ![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/crawl_1.png)
 
