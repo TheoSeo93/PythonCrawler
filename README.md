@@ -14,10 +14,22 @@ I manipulated the web driver options to make this headless browser that looks li
 Stony Brook Campus website was directing this address to show what the daily menu of dining halls were.
 https://cafes.compass-usa.com/StonyBrook/SitePages/Menu.aspx?lid=a1
 
-However, it was not possible because the actual menu data was hidden from iframe html element.
+However, the address was fake!
+It was impossible to crawl the data because the actual menu data was hidden from iframe html element.
 So I had to find the real address from which the website was getting data.
 As you can see from this image, the iframe was directing the real web address.
 
-
 ![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/crawl_2.PNG)
+
+
+## Step 2
+After finding out the "real" address to crawl, I began to write a python script that crawls all the data looping through to select each date, places, and time slots during the day.
+
+![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/crawl_1.png)
+
+
+## Step 3
+
+![alt txt](https://giphy.com/gifs/9r51hE2e80ZdR5Jo3i)
+
       
