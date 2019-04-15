@@ -6,7 +6,7 @@ Then, I became lazy to update the menu by running the python script on my laptop
 
 So I deployed the python script to Heroku, run by python apscheduler. 
 
-I manipulated the web driver options to make this headless browser that looks like a human browsing website. This file name is automated.py
+I manipulated the web driver options to make this browser that looks like a human browsing website. This file name is automated.py
 
 
 
