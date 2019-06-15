@@ -1,4 +1,4 @@
-# PythonCrawler, Heroku X Pyrebase X Apscheduler
+# PythonCrawler, Heroku X Apscheduler
 ## Python Crawler for "SBU Foodies" on Google Playstore 
 Initially, I tried to make a web crawler & scraper that uploads the data to the Google Drive and Firebase.
 
