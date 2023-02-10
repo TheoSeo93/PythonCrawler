@@ -31,7 +31,7 @@ After finding out the "real" address to crawl, I began to write a python script 
 ## Step 3
 So this is it!
 The scraped data goes to the firebase storage as a csv file format.
-This should have been done by storing the data as a json file format because JSON is faster and more convenient when it comes to organizing data with multiple attributes.
+This should have been done by storing the data as a json file format because JSON is more convenient when it comes to organizing data with multiple attributes.
 
 ![alt txt](https://github.com/TheoSeo93/PythonCrawler/blob/master/giphy.gif)
 
